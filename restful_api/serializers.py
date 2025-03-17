@@ -1,7 +1,7 @@
-from django.db import models
+from rest_framework import serializers
+from .models import Character
 
-class Character(models.Model):
-    name = models.CharField(max_length=255, unique=True)
-
-    def __str__(self):
-        return self.name
+class CharacterSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Character
+        fields = ['id', 'name']
