@@ -6,10 +6,12 @@ This repo is intended to provide an introduction to Django Rest Framework (DRF) 
 - Use ViewSets, Serializers, Routers
 - Example project structure & best practices
 
-## Auth & Security
+## Authentication
 - Sessions vs Token vs JWT
 - When to use which, and why
-- Security implications
+
+## Security
+- Rate limiting & throttling
 
 ## DRF vs GraphQL
 - Key differences in structure and philosophy
@@ -27,5 +29,4 @@ This repo is intended to provide an introduction to Django Rest Framework (DRF) 
   ---
 
 ## Content Parking Space
-- Rate limiting & throttling
 - Testing DRF APIs
