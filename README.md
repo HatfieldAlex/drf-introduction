@@ -26,7 +26,5 @@ This repo is intended to provide an introduction to Django Rest Framework (DRF) 
 - Microservices
 - Public-Facing APIs
 
-  ---
-
-## Content Parking Space
-- Testing DRF APIs
+## Testing
+- APIRequestFactory
