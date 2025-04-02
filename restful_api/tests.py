@@ -1,3 +1,1 @@
-from django.test import TestCase
-
-# Create your tests here.
+# TODO: Add DRF unit and integration tests here
