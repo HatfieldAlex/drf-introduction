@@ -26,8 +26,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    #DRF
+    #DRF Config
     'rest_framework',
+
+    #Custom Apps
+    'restful_api',
 ]
 
 MIDDLEWARE = [
