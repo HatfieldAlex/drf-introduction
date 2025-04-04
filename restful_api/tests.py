@@ -1,1 +1,1 @@
-# TODO: Add DRF unit and integration tests here
+from rest_framework.test import APIRequestFactory
